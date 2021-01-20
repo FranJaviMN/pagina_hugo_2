@@ -5,7 +5,7 @@ draft: true
 ---
 
 
-# GoHugo
+# GoHugo que guay
 
 ## ¿Que es GoHugo?
 
