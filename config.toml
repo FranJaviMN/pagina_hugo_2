@@ -1,4 +1,56 @@
-baseURL = "franjmn.surge.sh"
+baseURL = "https://franjavimn.onrender.com"
 languageCode = "es-ES"
 title = "Blog"
 copyright = "Francisco Javier Martín Núñez"
+theme = "cactus"
+
+[[menu.main]]
+  name = "Sistemas"
+  url = "/Sistemas"
+  weight = 1
+
+[[menu.main]]
+  name = "Seguridad"
+  url = "/Seguridad"
+  weight = 2
+
+[[menu.main]]
+  name = "Servicios"
+  url = "/Servicios"
+  weight = 3
+
+[[menu.main]]
+  name = "Implantacion"
+  url = "/Implantacion"
+  weight = 4
+
+[[menu.main]]
+  name = "BBDD"
+  url = "/BBDD"
+  weight = 5
+
+[[menu.main]]
+  name = "HLC"
+  url = "/HLC"
+  weight = 6
+
+[[menu.main]]
+  name = "Cloud"
+  url = "/Cloud"
+  weight = 7
+
+
+[params]
+
+  colortheme = "white"
+  description = "En esta página estatica vamos a guardar algunos de los trabajos que vaya realizando a lo largo del curso de 2ºASIR en el instituto I.E.S. Gonzalo Nazareno."
+  showAllPostsOnHomePage = false
+  postsOnHomePage = 5
+
+[[params.social]]
+  name = "github"
+  link = "https://github.com/FranJaviMN"
+
+[[params.social]]
+  name = "email"
+  link = "franjaviermn17100@gmail.com"
